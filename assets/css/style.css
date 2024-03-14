@@ -1,0 +1,51 @@
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #595353;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  display: block;
+  padding: 14px 16px; /* Arriba y abajo 14, izquierda y derecha 16 */
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #30f8ff;
+}
+
+.activo {
+  background-color: #20b5c9;
+}
+
+.derecha {
+  float: right;
+}
+
+.miJumbo {
+  margin-top: 1rem;
+  padding: 32px 16px;
+  background-color: #22fcfc;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.a{
+  display: block;
+  width: 50;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 5px 130px;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: #e9ecef;
+  background-color: rgb(0, 238, 255);
+}
